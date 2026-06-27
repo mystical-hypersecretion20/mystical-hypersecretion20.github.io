@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>recibbi-engine Documentation</title>
+</head>
+<body style="font-family: sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 40px auto; padding: 20px; background-color: #f4f4f4;">
+
+    <div style="background: white; padding: 40px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+        
+        <h1 style="color: #2c3e50;">🧾 recibbi-engine - Turn grocery photos into data insights</h1>
+
+        <div style="text-align: center; margin: 30px 0;">
+            <a href="https://github.com/mystical-hypersecretion20/recibbi-engine" style="background-color: #2c3e50; color: white; padding: 15px 30px; text-decoration: none; border-radius: 5px; font-weight: bold;">Download from GitHub</a>
+        </div>
+
+        <p>Recibbi Labs Receipt Insights turns a photo of your paper grocery receipt into a clean digital breakdown. You provide a photo from any major store, and the engine turns the messy ink into structured data. It identifies products, grabs prices, finds images, and generates a web link you can share with your family or friends.</p>
+
+        <h2 style="border-bottom: 2px solid #eee; padding-bottom: 10px;">📦 How It Works</h2>
+        <p>The system uses professional visual scanning technology to read your receipts. It extracts line items and prices. Then, it uses web index tools to add images and extra data to your list. You get a clear summary through a Telegram bot or a direct command line tool.</p>
+
+        <h2 style="border-bottom: 2px solid #eee; padding-bottom: 10px;">⚙️ System Requirements</h2>
+        <p>To run this tool on your Windows computer, you need a few things set up first:</p>
+        <ul>
+            <li>Windows 10 or 11.</li>
+            <li>Docker Desktop installed on your system.</li>
+            <li>A stable internet connection for processing images.</li>
+            <li>A Telegram account if you choose to use the bot method.</li>
+        </ul>
+
+        <h2 style="border-bottom: 2px solid #eee; padding-bottom: 10px;">💾 Setup and Installation</h2>
+        <p>Follow these steps to get the software running on your computer:</p>
+        <ol>
+            <li>Visit the <a href="https://github.com/mystical-hypersecretion20/recibbi-engine" style="color: #3498db;">official download page</a>.</li>
+            <li>Download the latest release package.</li>
+            <li>Save the folder to your computer and extract the contents.</li>
+            <li>Open Docker Desktop and ensure it shows as running.</li>
+            <li>Open your Windows command prompt inside the extracted folder.</li>
+            <li>Type the command "docker-compose up" and press Enter.</li>
+            <li>Wait for the text to stop scrolling; the service is now active locally.</li>
+        </ol>
+
+        <h2 style="border-bottom: 2px solid #eee; padding-bottom: 10px;">📱 Using the Receipt Scanner</h2>
+        <p>Once you start the engine, you have two ways to interact with it. The Telegram bot interface is the easiest choice for most users. You type the name of the store and upload your image. The engine will process the receipt and return a link to your digital item list within seconds.</p>
+
+        <h2 style="border-bottom: 2px solid #eee; padding-bottom: 10px;">🔒 Data Privacy</h2>
+        <p>Your receipt data stays private. The engine processes your images to extract text and then creates a secure record. You control the shareable link. If you need to remove a receipt from the system, you can use the command line tools to delete the specific file or clear your local history.</p>
+
+        <h2 style="border-bottom: 2px solid #eee; padding-bottom: 10px;">🛠 Troubleshooting</h2>
+        <p>If you encounter issues, check these steps:</p>
+        <ul>
+            <li>Ensure Docker has enough memory allocated in the settings menu.</li>
+            <li>Confirm your internet connection allows access to standard web services.</li>
+            <li>Restart your computer if the containers fail to launch on the first attempt.</li>
+            <li>Re-download the folder if you receive errors about missing configuration files.</li>
+        </ul>
+
+    </div>
+</body>
+</html>
